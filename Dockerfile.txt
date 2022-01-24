@@ -1,0 +1,16 @@
+FROM ubuntu:focal-20220105
+
+RUN mkdir speedtest
+
+WORKDIR /speedtest 
+
+RUN apt-get update -y && \
+    apt-get upgrade -y && \
+    apt-get install curl -y
+
+RUN curl -o speedtest.tgz https://install.speedtest.net/ooklaserver/stable/OoklaServer-linux64.tgz && \
+    tar -zxovf speedtest.tgz && \
+    mv OoklaServer.properties.default OoklaServer.properties
+    
+CMD ["./OoklaServer"]
+
