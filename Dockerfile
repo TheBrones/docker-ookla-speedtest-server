@@ -10,7 +10,7 @@ RUN apt update -y && \
 
 RUN wget https://install.speedtest.net/ooklaserver/ooklaserver.sh && \
     chmod a+x ooklaserver.sh && \
-    ./ooklaserver.sh install
+    ./ooklaserver.sh install \
     mv OoklaServer.properties.default OoklaServer.properties
     
 CMD ["./OoklaServer --deamon"]

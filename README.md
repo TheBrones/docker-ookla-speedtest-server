@@ -4,6 +4,10 @@ This is the Ookla Speedtest Server in docker, without demon.
 
 Before starting, read this documentation from Ookla [support.ookla.com](https://support.ookla.com/hc/en-us/articles/234578568-How-To-Install-Submit-Server)
 
+[Speedtest Server Release Notes](https://support.ookla.com/hc/en-us/articles/234578608-Speedtest-Server-Release-Notes)
+Last version check: 2.11.0 (7-2024)
+
+
 [**Docker Hub: TheBrones**/docker-ookla-speedtest-server](https://hub.docker.com/r/TheBrones/ookla-speedtest-server)
 
 Example docker-compose:
