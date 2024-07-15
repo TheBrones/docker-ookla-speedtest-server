@@ -7,15 +7,12 @@ Before starting, read this documentation from Ookla [support.ookla.com](https://
 [Speedtest Server Release Notes](https://support.ookla.com/hc/en-us/articles/234578608-Speedtest-Server-Release-Notes)
 Last version check: 2.11.0 (7-2024)
 
-
-[**Docker Hub: TheBrones**/docker-ookla-speedtest-server](https://hub.docker.com/r/TheBrones/ookla-speedtest-server)
-
 Example docker-compose:
 ```sh
 version: '3.3'
 services:
   speedtest:
-      image: TheBrones/ookla-speedtest-server
+      image: ghcr.io/thebrones/docker-ookla-speedtest-server:main
       container_name: ookla-speedtest-server
       ports:
         - 8080:8080/udp
@@ -30,7 +27,7 @@ Example stateless docker-compose:
 version: '3.3'
 services:
   speedtest:
-      image: TheBrones/ookla-speedtest-server
+      image: ghcr.io/thebrones/docker-ookla-speedtest-server:main
       container_name: ookla-speedtest-server
       ports:
         - 8080:8080/udp

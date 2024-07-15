@@ -1,7 +1,7 @@
 version: '3.3'
 services:
   speedtest:
-      image: TheBrones/ookla-speedtest-server
+      image: ghcr.io/thebrones/docker-ookla-speedtest-server:main
       container_name: ookla-speedtest-server
       ports:
         - 8080:8080/udp
