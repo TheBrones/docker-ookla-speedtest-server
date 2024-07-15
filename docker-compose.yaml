@@ -1,7 +1,7 @@
 version: '3.3'
 services:
   speedtest:
-      image: comet1903/ookla-speedtest-server
+      image: TheBrones/ookla-speedtest-server
       container_name: ookla-speedtest-server
       ports:
         - 8080:8080/udp
