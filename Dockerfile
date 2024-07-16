@@ -12,4 +12,4 @@ RUN wget https://install.speedtest.net/ooklaserver/ooklaserver.sh && \
     chmod a+x ooklaserver.sh && \
     ./ooklaserver.sh install -f
     
-CMD ["./speedtest/OoklaServer --deamon"]
+CMD ["./OoklaServer"]
