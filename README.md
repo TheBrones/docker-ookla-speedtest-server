@@ -1,6 +1,6 @@
 # Ookla Speedtest.net Server for Docker
 This is the Ookla Speedtest Server in Docker. This fork is a refactor and update to the latest version. [Speedtest Server Release Notes](https://support.ookla.com/hc/en-us/articles/234578608-Speedtest-Server-Release-Notes)
-Last version check: 2.11.0 (7-2024)
+Last version check: 2.11.0 (8-2024)
 
 Before starting, read this documentation from Ookla [support.ookla.com](https://support.ookla.com/hc/en-us/articles/234578568-How-To-Install-Submit-Server)
 
